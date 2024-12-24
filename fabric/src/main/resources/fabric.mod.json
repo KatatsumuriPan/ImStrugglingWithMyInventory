@@ -3,23 +3,22 @@
   "id": "im_struggling_with_my_inventory",
   "version": "${version}",
   "name": "I'm Struggling With My Inventory!!",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "This is a KUSO mod!!!",
   "authors": [
-    "Me!"
+    "Katatsumuri.pan"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/KatatsumuriPan/BetterQuestPopup"
   },
-  "license": "CC0-1.0",
-  "icon": "assets/im_struggling_with_my_inventory/icon.png",
+  "license": "LGPL-2.1",
+  "icon": "",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "kpan.kuso.iswmi.fabric.ExampleModFabric"
+      "kpan.kuso.iswmi.fabric.MainModFabric"
     ],
     "client": [
-      "kpan.kuso.iswmi.fabric.client.ExampleModFabricClient"
+      "kpan.kuso.iswmi.fabric.client.MainModFabricClient"
     ]
   },
   "mixins": [
